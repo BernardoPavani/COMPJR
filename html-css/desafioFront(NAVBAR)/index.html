@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>site-bolado-3</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="image/xicara-de-cafe.png" class="cafe">
+                <h3 class="texto1">Quem somos?</h3>
+                <h3 class="texto2">Cardapio</h3>
+                <h3 class="texto3">Contato</h3>
+                    <div class="entrada-dados">
+                        <label for="pesquisar"></label>
+                        <input id="pesquisar" type="text" name="pesquisar" placeholder="pesquisar"required onfocus="limparPlaceholder(this)"; onblur="restaurarPlaceholder(this)">
+                    </div>
+        </div>
+
+        <div class="sexo">
+            <div class="sexo2">
+                <div class="title01">
+                    <h1>Nos ajude!</h1>
+                    <span>Escolha um nome para<br>nosso novo drink promocional!</span>
+                </div>
+                <div class="caixa">
+                    <div class="lineinput">
+                        <label>Sugestão</label>
+                        <input type="text" id="sugestão" placeholder="escreva aqui sua sugestão"required onfocus="limparPlaceholder(this)"; onblur="restaurarPlaceholder1(this)">
+                    </div>
+                    <div class="lineinput">
+                        <label>Seu nome</label>
+                        <input type="text" id="seunome" placeholder="escreva aqui seu nome"required onfocus="limparPlaceholder(this)"; onblur="restaurarPlaceholder2(this)">
+                    </div>
+                    <button onclick="produto.salvar()" class="butao1">Salvar</button>
+                    <button onclick="produto.cancelar()" class="butao2">Cancelar</button>
+                </div>
+            </div>
+            <div class="content">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th class="center">ID</th>
+                            <th>Sugestão</th>
+                            <th>Cliente</th>
+                            <th class="center">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

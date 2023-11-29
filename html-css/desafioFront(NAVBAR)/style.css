@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+}
+
+.container{
+    width: 67%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background-color: #be9b7b;
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: #634a43;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.cafe {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.3rem;
+    margin-left: 0.8rem;
+}
+
+.texto1 {
+    display: flex;
+    flex-direction: row;
+    color: #cdb39b;
+    margin-left: 22rem;
+    margin-top: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.texto1:hover {
+    color: #352723;
+    text-decoration: underline;
+}
+
+.texto2 {
+    display: flex;
+    color: #cdb39b;
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.texto2:hover {
+    color: #352723;
+    text-decoration: underline;
+}
+
+.texto3 {
+    display: flex;
+    color: #cdb39b;
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.texto3:hover {
+    color: #352723;
+    text-decoration: underline;
+}
+
+.entrada-dados {
+    display: flex;
+    padding: 1.2rem;
+    margin-left: 3rem;
+}
+
+.entrada-dados label {
+    color: #fff;
+    font-weight: 500;
+}
+
+.entrada-dados input {
+    width: 10rem;
+    padding: 0.3rem;
+    color: #fff;
+    background-color: #8e735a;
+    border: none;
+
+}
+
+.entrada-dados input::placeholder {
+    color: #fff;
+}
+
+.entrada-dados input:hover {
+    background-color: #725c48;
+}
+
+.sexo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sexo {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.title01 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title01 h1{
+    color: #ffdbb7;
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+    text-decoration: underline;
+    text-decoration: solid;
+    text-shadow: 3px 3px 8px #352723;
+}
+
+.title01 span{
+    color: #fff;
+    text-decoration: solid;
+    size: 900;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    background-color: #634a43;
+    border: 1px solid #352723;
+    border-radius: 5px;
+    height: 15vw;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 0;
+}
+
+.lineinput {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin-top: -0.50rem;
+
+}
+
+.lineinput label {
+    color: #cdb39b;
+    margin-bottom: 0.33rem;
+}
+
+.lineinput input {
+    padding: 0.3rem;
+    color: #fff;
+    background-color: #8e735a;
+    border: none;
+
+}
+
+.lineinput input::placeholder {
+    color: #fff;
+}
+
+.lineinput input:hover {
+    background-color: #725c48;
+}
+
+.butao1 {
+    border: 0px;
+    width: 80%;
+    margin-top: 0.8rem;
+    margin-left: 1.3rem;
+    padding: 0.33rem;
+    outline: 0;
+    border-radius: 10px;
+    background-color: #493630;
+    color: #fff;
+    cursor: pointer;
+}
+
+.butao1:hover {
+    background-color: #352723;
+}
+
+.butao2 {
+    border: 0px;
+    width: 80%;
+    margin-top: 0.5rem;
+    margin-left: 1.3rem;
+    padding: 0.33rem;
+    outline: 0;
+    border-radius: 10px;
+    background-color: #493630;
+    color: #fff;
+    cursor: pointer;
+}
+
+.butao2:hover {
+    background-color: #352723;
+}
+
+.content {
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-bottom: 0rem;
+}
+
+table {
+    color: #ffdbb7;
+    border-collapse: collapse;
+    border: 1 px solid #352723;
+    width: 25rem;
+}
+
+
+table th {
+    background-color: #634a43;
+}
+
+table th, td {
+    padding: 2px 5px;;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.center1 {
+    cursor: pointer;
+    text-align: center;
+}

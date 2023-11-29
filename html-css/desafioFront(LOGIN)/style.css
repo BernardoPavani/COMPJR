@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff4e6;
+}
+
+.container{
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+
+}
+
+.cadastro{
+    width: 60%;
+    display: flex;
+   flex-direction: column;
+   background-color: #cbad91;
+   padding: 3rem;
+}
+
+.cadast-header{
+   text-align: left;
+}
+
+.title01 {
+    margin-bottom: 2vw; 
+    color: #4b3832;
+}
+
+.fala1 {
+    margin-top: 5vw; 
+    font-size: large;
+    color: #43322d;
+}
+
+a {
+    color:#42302b;
+}
+
+.formulario{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #634a43;
+    padding: 3rem;
+}
+
+.form-header{
+   text-align: center;
+}
+
+.title02{
+    margin-bottom: 2vw;
+    color: #fff;
+}
+
+.entrada-grupo {
+    position: relative;
+}
+
+#E-mail, #senha {
+    position: absolute;
+    margin-left: 2.7vw;
+    top: -12vw;
+    width: 70%; 
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.entrada-dados {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.3vw;
+    position: relative;
+}
+
+.entrada-dados label {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.entrada-dados input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login button {
+    align-items: center;
+    width: 65%; 
+    height: 5vh;
+    margin-top: 13vw; 
+    border: none;
+    background-color: #4b3832;
+    cursor: pointer;
+}
+
+.login button:hover{
+    background-color: #42302b ;
+}
+
+.login button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color:#fff
+}
+
+.esquecimento {
+    margin-top: -7vw;
+    margin-left: 4.35vw;
+    font-size: small;
+    color: #fff;
+}
+
+#mensagemErro {
+    color: red; 
+    font-size: 14px; 
+    font-style: italic; 
+    margin-left: 5.5rem;
+  }
+

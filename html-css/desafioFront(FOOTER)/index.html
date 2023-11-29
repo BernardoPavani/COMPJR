@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoQ91ieeMkRHHnrf6KgDOE6uVFIkl4r6Y&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Site-bolado-2</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="local">
+            <div class="title">
+                <h1>Contato</h1>
+            </div>
+                    <div class="info">
+                        <div class="Telefone-info">
+                            <h2>Telefone</h2>
+                            <p>(xx) 0000-0000</p>
+                        </div>
+                            <div class="Email-info">
+                                <h2>Email</h2>
+                                <p>contato@exemplo.com.br</p>
+                            </div>
+                    </div>
+                            <div class="local-info">
+                                <h2>Localização</h2>
+                                <p>Rua Design, 227</p>
+                                <p>Figma, Navegador Web</p>
+                                <p>88783-180</p>
+                            </div>
+
+                            <gmp-map center="-21.22768211364746,-44.97859573364258" zoom="14" map-id="DEMO_MAP_ID" class="mapa">
+                                <gmp-advanced-marker position="-21.22768211364746,-44.97859573364258" title="My location">
+                                </gmp-advanced-marker>
+                              </gmp-map>
+  
+        </div>
+        
+       
+                <div class="mensagem">
+                    <img src="image/cafe.PNG" class="cafe"> 
+                        <div class="entrada-dados">
+                            <label for="nome"></label>
+                            <input id="nome" type="text" name="nome" placeholder="nome"required>
+                        </div>
+                        <div class="entrada-dados">
+                            <label for="telefone"></label>
+                            <input id="telefone" type="text" name="telefone" placeholder="telefone"required>
+                        </div>
+                        <div class="entrada-dados">
+                            <label for="e-mail"></label>
+                            <input id="e-mail" type="text" name="e-mail" placeholder="e-mail"required>
+                        </div>
+                        <div class="entrada-dados">
+                            <label for="mensagem"></label>
+                            <input id="mensagem" type="text" name="mensagem" placeholder="mensagem"required>
+                        </div>
+                            <div class="enviar">
+                                <button><a href="#">enviar email</a></button>
+                            </div>
+                    </div>        
+    </div>
+</body>
+</html>
